@@ -1,0 +1,11 @@
+/* Ảnh nền riêng cho hàng thứ 2 của vrg-intro-section - dùng background-image */
+.vrg-intro-bottom-right, .vrg-intro-bottom-left {
+    position: relative;
+    background: url('../images/index/slide/bg-submenu.png') center top/400% auto no-repeat;
+    z-index: 1;
+  }
+  .vrg-infobox {
+    background: transparent !important;
+  }
+  /* Xóa ảnh nền <img> nếu có */
+  .vrg-intro-bottom-bg { display: none !important; }
