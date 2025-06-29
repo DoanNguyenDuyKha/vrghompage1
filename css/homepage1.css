@@ -3626,7 +3626,6 @@
   padding: 0;
 }
 .loadicon-title-custom .loadicon-vrg {
-  text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #1ca046;
   font-weight: bold;
@@ -3681,10 +3680,7 @@
   display: inline-block;
   color: #1ca046;
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 1.5px;
-}
-.wrap-loadicon .text-slogan strong {
 }
 .wrap-loadicon .text-slogan strong br + text,
 .wrap-loadicon .text-slogan strong br + br + text {
