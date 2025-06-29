@@ -3576,7 +3576,6 @@
   }
 }
 
-/* DuyKha: Điều chỉnh layout box chính sách phát triển bền vững trên desktop */
 @media (min-width: 901px) {
   .vrg-sustainable-box {
     flex-direction: row !important;
@@ -3677,6 +3676,7 @@
 }
 
 .wrap-loadicon .text-slogan strong {
+  text-transform: uppercase;
   display: inline-block;
   color: #1ca046;
   font-weight: bold;

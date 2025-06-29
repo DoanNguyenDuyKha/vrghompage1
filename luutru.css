@@ -275,8 +275,8 @@ img:not([src]) {
 
 .text-slogan span {
     background: #eee;
-    /* font-size: 2.5vw; */
-    font-weight: 900;
+    /* font-size: 3rem; */
+    font-weight: 700;
     /* text-transform: uppercase */
 }
 
@@ -440,12 +440,7 @@ img:not([src]) {
     right: 26px
 }
 
-.link-header a {
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #eee
-}
+
 
 .main-menu {
     width: auto;
@@ -1590,9 +1585,9 @@ img:not([src]) {
         top: calc(50% - 64vw/3)
     }
 
-    .text-slogan span {
+    /* .text-slogan span {
         font-size: 4.4vw
-    }
+    } */
 
     :root {
         --widthmenu: 100vw
