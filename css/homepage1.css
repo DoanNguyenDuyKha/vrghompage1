@@ -3616,3 +3616,121 @@
 .home-sustainble .news-slider-dots .dot {
   cursor: pointer;
 }
+
+.loadicon-title-custom {
+  display: inline-block;
+  font-family: 'Oswald', 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+.loadicon-title-custom .loadicon-vrg {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #1ca046;
+  font-weight: bold;
+}
+.loadicon-title-custom{
+  text-transform: none;
+  color: #119A48;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+@media (max-width: 700px) {
+  .loadicon-title-custom {
+    font-size: 0.85rem;
+  }
+  .loadicon-title-custom .loadicon-vrg {
+    font-size: 0.85rem;
+  }
+  .loadicon-title-custom .loadicon-slogan {
+    font-size: 0.75rem;
+  }
+}
+
+.wrap-loadicon .text-slogan strong {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-family: 'Oswald', 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap-loadicon .text-slogan strong {
+  font-family: 'Oswald', 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+/* DuyKha: Style riêng cho từng dòng trong strong */
+.wrap-loadicon .text-slogan strong {
+  font-family: 'Oswald', 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  color: #1ca046;
+}
+
+.wrap-loadicon .text-slogan strong {
+  display: inline-block;
+  color: #1ca046;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.wrap-loadicon .text-slogan strong {
+}
+.wrap-loadicon .text-slogan strong br + text,
+.wrap-loadicon .text-slogan strong br + br + text {
+  color: #119A48;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.2px;
+}
+@media (max-width: 700px) {
+  .wrap-loadicon .text-slogan strong {
+    font-size: 0.85rem;
+  }
+}
+
+.loadicon-slogan,
+.wrap-loadicon .text-slogan strong .loadicon-slogan {
+  font-size: 0.6em !important;
+  color: #119A48 !important;
+  font-weight: 400 !important;
+  text-transform: none !important;
+  margin-top: 2px;
+}
+@media (max-width: 700px) {
+  .wrap-loadicon .text-slogan strong .loadicon-slogan {
+    font-size: 0.5em !important;
+  }
+}
+
+.wrap-loadicon .text-slogan strong {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.wrap-loadicon .text-slogan strong {
+  font-size: 3rem !important;
+}
+@media (max-width: 700px) {
+  .wrap-loadicon .text-slogan strong {
+    font-size: 2rem !important;
+  }
+  .wrap-loadicon img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.loadicon-slogan{
+  font-size: 1rem;
+}
