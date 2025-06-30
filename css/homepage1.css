@@ -2133,20 +2133,15 @@
     height: 400px !important;
     min-height: 400px !important;
     max-height: 400px !important;
+    overflow-x: auto !important;
     overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
   }
-  /* XÓA các dòng sau nếu có */
-  /*
   .home-sustainble .media-news-item {
-    height: 100% !important;
-    min-height: 400px !important;
-    max-height: 400px !important;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    max-height: 390px;
+    height: auto;
   }
-  */
 }
 
 @media (max-width: 700px) {
