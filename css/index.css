@@ -2330,7 +2330,7 @@ img:not([src]) {
 .wrap-content,.wrap-large,.wrap-small {
     position: relative;
     display: block;
-    width: 66%;
+    width: 80%;
     margin: auto;
     padding: 4vw 0;
     height: auto;
@@ -3214,7 +3214,7 @@ img:not([src]) {
 }
 
 .home-sustainble .item-news-home,.item-news-home {
-    width: calc(35% - 40px)
+    width: 1400px;
 }
 
 .item-news-home {
@@ -8467,7 +8467,7 @@ input[type=range]:focus::-moz-range-track {
 
 @media screen and (max-width: 1400px) {
     .wrap-content {
-        width:calc(100% - 180px)
+        width:95%;
     }
 }
 
