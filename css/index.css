@@ -3087,16 +3087,22 @@ img:not([src]) {
 }
 
 .box-home-estate .view-more {
-    bottom: 30px;
-    right: 50%;
-    margin: 0;
-    transform: translateX(50%);
-    box-shadow: 0 10px 20px rgba(0,0,0,.05);
-    font-size: 14px;
-    padding: 17px;
-    width: 180px;
-    background: green;
-    color: white;
+    display: inline-block;
+    color: #fff;
+    margin: 30px 0 0;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255,255,255,.6);
+    background: #119A48;
+    color: #eee;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+    z-index: 10
 }
 
 .home-project .title-main {
