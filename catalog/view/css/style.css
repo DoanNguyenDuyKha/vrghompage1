@@ -996,17 +996,19 @@
 
     .view-more::before {
         content: '';
+        font-size: 10px;
         position: absolute;
+        font-size: 10px;
         width: 100%;
         height: 0;
         top: 0;
         left: 0;
-        background-color: var(--bgactive);
+        /* background-color: var(--bgactive); */
         transition: height .3s ease-in-out;
         z-index: -1
     }
 
-    .view-more::after {
+    /* .view-more::after {
         content: '';
         position: absolute;
         width: 100%;
@@ -1016,18 +1018,19 @@
         background-color: var(--bgactive);
         transition: height .3s ease-in-out;
         z-index: -1
-    }
+    } */
 
     .view-more:hover {
-        letter-spacing: 7px;
+        letter-spacing: 2px;
         border-color: transparent;
         box-shadow: 10px 20px 30px rgba(255,255,255 ,.2);
-        background-color: unset;
+        background-color: #119A48;
         color: #fff
     }
 
     .view-more:hover::after,.view-more:hover::before {
-        height: 50%
+        height: 100%;
+        width: 200px;
     }
 
     .pic-img img {

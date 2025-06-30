@@ -1414,7 +1414,7 @@
 .media-news-actions {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 115px;
   padding: 0;
   margin-top: 8px;
 }
@@ -2130,14 +2130,29 @@
 
 @media (max-width: 700px) {
   .home-sustainble .media-news-list.news-slider {
+    height: 400px !important;
+    min-height: 400px !important;
+    max-height: 400px !important;
+    overflow-y: hidden !important;
+  }
+  /* XÓA các dòng sau nếu có */
+  /*
+  .home-sustainble .media-news-item {
+    height: 100% !important;
+    min-height: 400px !important;
+    max-height: 400px !important;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 12px;
-    padding: 0 0 24px 12px;
-    margin: 0;
-    height: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  */
+}
+
+@media (max-width: 700px) {
+  .home-sustainble .media-news-list {
+    gap: 16px;
+    padding: 0 7.5%;
   }
 
   .home-sustainble .media-news-item {
